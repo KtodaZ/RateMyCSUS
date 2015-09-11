@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "RateMyCSUS",
+  "description": "Displays RateMyProfessor ratings on Sacramento State's Student Center",
+  "version": "1.2.7",
+
+  "author": "Kyle Szombathy",
+
+  "icons": {
+    "128": "icon.png"
+  },
+
+  
+  "page_action": {
+    "default_icon": "icon.png"
+  },
+
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "tabs",
+    "http://www.ratemyprofessors.com/"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+      "https://cmsweb.csus.edu/psp/HSACPRD/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?PORTALPARAM_PTCNAV=HC_SSS_STUDENT_CENTER&EOPP.SCNode=HRMS&EOPP.SCPortal=EMPLOYEE&EOPP.SCName=CO_EMPLOYEE_SELF_SERVICE&EOPP.SCLabel=Self_Service&EOPP.SCPTfname=CO_EMPLOYEE_SELF_SERVICE&FolderPath=PORTAL_ROOT_OBJECT.CO_EMPLOYEE_SELF_SERVICE.HC_SSS_STUDENT_CENTER&IsFolder=false"],
+      "css": ["jquery-ui.min.css", "jquery-ui.structure.min.css",  "jquery-ui.theme.min.css", "jquery.qtip.min.css"],
+      "js": ["jquery-1.11.3.min.js", "jquery-ui.min.js", "jquery.qtip.min.js", "sacState.js"]
+    }
+  ]
+}
