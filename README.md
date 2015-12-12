@@ -18,6 +18,9 @@ I am not responsible for any problems using the cmsweb system, you not being abl
 ###How does it work?
 Every time you load a page on your schools website, the extension searches for professor names. If a name exists it adds a link to each professors name that dynamically loads that professors ratings on mouse over. This is all done through javascript locally. 
 
+###Interested in making this work for your school?
+Contact me and we can work together to make it happen.
+
 ###Contact Us
 If you have any questions or concerns please feel to contact me at kyleszombathy@gmail.com.
 
