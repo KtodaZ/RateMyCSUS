@@ -21,7 +21,7 @@ Every time you load a page on your schools website, the extension searches for p
 ###Interested in making this work for your school?
 Contact me and we can work together to make it happen.
 
-###Contact Us
+###Contact
 If you have any questions or concerns please feel to contact me at kyleszombathy@gmail.com.
 
 ###Privacy Policy
