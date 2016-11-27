@@ -8,9 +8,6 @@ RateMySierra helps Sacramento State CSUS students and Sierra College students ch
 Sierra College:   https://chrome.google.com/webstore/detail/ratemysierra/dkjpkkjecfhkapegkfhfgfngenmpjndo
 Sacramento State: https://chrome.google.com/webstore/detail/ratemycsus/hmnppfabdclolfimkdbhgjkmfgoahhek
 
-###Revision History
-- v1.2.8: Removed browsing history / browsing activity requirement. Fixed issue some users were having in displaying ratings
-
 ###Disclaimer:
 The ratings shown are owned by RateMyProfessor and not me.
 I am not responsible for any problems using the cmsweb system, you not being able to choose classes, or this extension stealing your girlfriend - you must use this extension at your own risk.
@@ -25,4 +22,4 @@ Contact me and we can work together to make it happen.
 If you have any questions or concerns please feel to contact me at kyleszombathy@gmail.com.
 
 ###Privacy Policy
-RateMySierra/RateMyCSUS does not collect or save any information from users or the sites it runs on. 
+RateMySierra/RateMyCSUS does not collect or save any information from users or the sites it runs on and does not have the permissions to do so.
