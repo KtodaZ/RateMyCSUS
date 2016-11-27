@@ -295,7 +295,7 @@ function detectAndAggregateProfessors(iframeHtml) {
             },
             style: {
                 classes: 'qtip-bootstrap',
-                width: 190,
+                width: 195,
                 tip: {
                     corner: false
                 }
@@ -379,7 +379,7 @@ function detectAndAggregateProfessors(iframeHtml) {
                         profLocation.title = "Search other schools for " + profNameWithSpace;
                     } else {
                         // Column 1
-                        qtipHtml.push('<div id=\"column1\" style=\"float:left; margin:0; width:80%;\">');
+                        qtipHtml.push('<div id=\"column1\" style=\"float:left; margin:0; width:75%;\">');
                         qtipHtml.push("Overall Quality:<br>Would take again:<br>Level of difficulty:<br>");
                         if(hotness) qtipHtml.push("Hotness:<br>");
                         if(tagHolder.tags.length > 0){
@@ -389,7 +389,7 @@ function detectAndAggregateProfessors(iframeHtml) {
                         qtipHtml.push('</div>');
 
                         // Column 2
-                        qtipHtml.push('<div id=\"column2\" style=\"float:left; margin:0;width:20%;\">');
+                        qtipHtml.push('<div id=\"column2\" style=\"float:left; position: absolute; right: 0px; margin:0;width:25%;\">');
                         qtipHtml.push(ovQuality+"<br>"+wouldTakeAgain+"<br>"+levelOfDifficulty);
                         if(hotness) qtipHtml.push("<br>"+hotness);
                         qtipHtml.push('<br style="line-height: 21px;">');
